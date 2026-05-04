@@ -65,9 +65,9 @@ game.onUpdateInterval(1500, function () {
 // 🟢 Lily pads (bonus)
 game.onUpdateInterval(3000, function () {
     lily = sprites.create(img`
-        . 1 . 
-        1 1 1 
-        . 1 . 
+        . 3 . 
+        3 3 3 
+        . 3 . 
         `, SpriteKind.Food)
     lily.setPosition(randint(10, 150), randint(20, 50))
     lily.setFlag(SpriteFlag.AutoDestroy, true)
